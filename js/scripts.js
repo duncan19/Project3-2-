@@ -30,7 +30,9 @@ $(document).ready(function(){
        }
        console.log((arrayOfUserNUm))
        var arrayforresult = arrayOfUserNUm.toString();
-       $("#result").text(arrayforresult)
+       $("#result").text(arrayforresult);
+       $("#result").show();
+       $("#formarea").show();
 };
 console.log(numtoword())
 });
